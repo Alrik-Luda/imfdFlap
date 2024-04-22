@@ -1,6 +1,12 @@
 # imfdFlap
-#### Copy of the default output message:
+**tl;dr:**  
+g++ imfdFlap.cpp  
+./a.out prepare  
+./allrun.sh  
 
+Build imfdFlap.cpp using your c++ compiler of choice (I used g++ 11.4.0). Run the output file with "prepare" and execute the allrun.sh script. This creates a couple of sub-directories prefaced with a . and one sub-directory *cases*, which contains all preCICE coupling directories and their respective OpenFoam sub-directories. Any changes made to .folders can be pushed to the case directories using the copyFiles.sh script.
+
+**Copy of the default output message:**  
 Self-installing OpenFOAM experiment: IMFD-Flap using preCICE, by Alrik Luda - rev. 0 - (2024-04-14)
 
 **About:**  
