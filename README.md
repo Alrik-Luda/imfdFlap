@@ -10,7 +10,7 @@ Build imfdFlap.cpp using your c++ compiler of choice (I used g++ 11.4.0). Run th
 Self-installing OpenFOAM experiment: IMFD-Flap using preCICE, by Alrik Luda - rev. 0 - (2024-04-14)
 
 **About:**  
-This generates scripts to install the latest versions of OpenFOAM, OpenFOAM-Adapter, preCICE and anything else required to run them at the time of writing. It also builds a bunch of case directories (under cases) varying in their volumetric flow rate (from 10 m3 to 100 m3). To start a coupled simulation enter the solid and fluid directories of a case with two seperate terminals and execute the appropriate run script.
+This file generates scripts to install the latest versions of OpenFOAM, OpenFOAM-Adapter, preCICE and anything else required to run them at the time of writing. It also builds a bunch of case directories (under cases) varying in their volumetric flow rate (from 10 m3 to 100 m3). To start a coupled simulation enter the solid and fluid directories of a case with two seperate terminals and execute the appropriate run script.
 
 **Problems during installation:**  
 This installation script was built on Ubuntu 22.04.4 LTS (Jammy Jellyfish) running on WSL on Windows 11. Verify the OpenFOAM repo (and others) are compatible or commence an edit in the installPreciceAndOF.sh file. If the installation fails, someone probably updated their version without telling anyone else, making it necessary to fall back to fixed versions compatible with one another.
